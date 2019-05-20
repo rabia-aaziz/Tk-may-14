@@ -1,0 +1,122 @@
+/* for mobile 320x480 */
+@media (min-width: 320px) {
+    .circle button{min-width: 199px;min-height: 50px;}
+    .right{display:none;}
+/* header .nav-links{display: none;} */
+/* .fa-bars:hover .nav-links {display: none;} */
+.fa-bars:hover{cursor: pointer;}
+
+}
+
+/* for mobile 360x640 S6 Edge */
+@media (min-width: 360px) {}
+
+/* for iphone6, iphone7 375x667*/
+@media (min-width: 375px) {}
+
+/* for iphone6 plus, iphone7 plus 414x736 */
+@media (min-width: 414px) {}
+
+@media (min-width: 480px) {}
+
+/* for tablet   768x1024 */
+@media (min-width: 768px) {}
+
+/* for 1024x768 */
+@media (min-width: 1024px) {}
+
+/* for 1152*/
+@media (min-width: 1152px) {}
+
+/* for 1280x800 */
+@media (min-width: 1280px) {}
+
+/* for 1366x800 */
+@media (min-width: 1366px) {}
+
+/* for 1440x900 */
+@media (min-width: 1440px) {}
+
+/* for 1600x900 */
+@media (min-width: 1600px) {}
+
+/* for 1920x1080 */
+@media (min-width: 1920px) {}
+
+/* for 2560x1440 */
+@media (min-width: 2560px) {}
+
+/* for 4k 3840x2160 */
+@media (min-width: 3840px) {}
+
+/* for 5k 5120 × 2880 */
+@media (min-width: 5120px) {}
+
+main{ background-image: url("images/VERSACE-Home-Tapete-Vliestapete-93588-1-935881-Bar.jpg")}
+.collapse {position: absolute; right: 17px;}
+.nav-item{ cursor: pointer;   margin: 10px;color: #cacaca;}
+body{margin: 0px; font-family: 'Roboto', sans-serif;}
+.marqu{width: 100%;height: auto; margin-top: -16px;display: flex;justify-content: center;background-color: #ed484c;}
+p{font-weight: bold;color:#fff;padding: 10px 0px 1px 8px;     margin-top: 16px;}
+.discount{background-color: yellow;color: black;}
+header{position: sticky;background-color: #160d0e;top: 0;z-index: 999; opacity: 0.8;}
+nav{ color:#cacaca !important; height: 40px;margin-top: 6px;height:auto; background: #4c4c4c; padding: 10px; display: flex;}
+.nav-item ul{list-style: none;color:#cacaca;}
+.right{ position: absolute;right: 0;}
+.circle{padding:20px;font-family: 'Josefin Sans', sans-serif;height:auto;text-align: -webkit-center; background-color: #f18d97;opacity: 0.8;}
+.circle h1 {font-size: 41px; font-weight: bold;}
+.details p{color: black;margin:0px;}
+.details{margin: auto; width: 67%; padding: 10px; border-top: 1px solid black;border-bottom: 1px solid black;padding: 5px;}
+.circle button{margin:10px 0px; color:pink; border:none; font-size: 20px;padding: 10px;padding: 5px;width: 16%;height: 41px;background-color: #160d0e;}
+.our-services h2{text-align:center;}
+.fa-html5,.fa-css3-alt,.fa-js{font-size: 100px;}
+.services-img{display: flex; flex-wrap: wrap; justify-content: space-around;}
+.paira{width: 300px; text-align: center;}
+.paira p{color: #160d0e; }
+#our-services,#portfolio,#contact-us h2{text-align: center;margin-top: 0px;}
+#our-services{background-color: #efece7;padding: 1em;}
+#portfolio{background-color: #ddceb4;opacity: 0.9;text-align: -webkit-center;padding: 10px;height: auto;}
+.portfolio-details{margin: auto;width: 67%;text-align: center;border-top:1px solid black;border-bottom:1px solid black;}
+.portfolio-details p{color:black;}
+.portfolio-img div{ margin: 12px 0px;}
+.portfolio-img{display: flex; flex-wrap: wrap;justify-content: center;}
+.contact-icons{display: flex;justify-content: center;}
+.contact-icons i{font-size: 28px;}
+.contact-icons div{ margin:10px; text-align:center; border:2px solid black; height:50px; width: 50px; padding: 10px; border-radius: 100%;}
+#contact-us{opacity: 0.8;background-color: #aec6c5;}
+.circle,#our-services,#contact-us,#portfolio{opacity: 0.8;}
+.fb:hover {background-color: #212121; color:#fcdea6; transition: 5s all ease-in-out;}
+.pink .black{height:300px; width:350px;margin-top:0px; margin-bottom:0px; }
+.black .bata{height:100px; position: relative;top: 35%; }
+.pink,.black,#blue{ border-radius: 15px; }
+.eye i{ margin-top: 10px;   font-size: 25px;}
+.eye{height:50px !important;width: 50px !important; border: 1px solid white;border-radius: 100%;}
+.black figure{display: flex; justify-content:space-around; width: 213px; height: 60px; }
+.black .bata,.bata h1{ margin-top: 0px;}
+.portfolio-img .black{opacity: 0.9; color:white; height:250px; width:300px;margin-top: 0px;}
+.pink{background-image: url("images/location.PNG");}
+.eye:hover{background-color: #fff; transition: 3s all;}
+
+#blue,#e-,#bata,#tv,#shop{background-position: center;background-size: cover;}
+#blue{ background-image: url("images/matter.PNG"); }
+#e-commerce{background-image: url("images/olx.PNG")}
+#bata{background-image: url("images/bata.PNG")}
+#tv{background-image: url("images/tv.PNG")}
+#shop{background-image: url("images/shop.PNG")}
+.portfolio-img{width: 72%; margin:auto; padding:10px;display: flex;flex-wrap: wrap;justify-content: space-around;}
+
+.bata{
+    display: none;
+}
+.black{background: none;}
+
+.black:hover .bata{
+    display: block;
+}
+.black:hover{background: black; opacity: 0.9;}
+.pink,.blue,.purple,.yellow,.red,.grey{background-position: center; background-size:cover;}
+
+/* footer-css */
+footer{background-color: #212121;text-align: center; margin: 0px; height: 59px; padding: 10px; color: #ffffff}
+footer:hover .fa-heart{color: #ec5061; transition:  3s all;}
+.paira i:hover{color: #ec5061;}
