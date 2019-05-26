@@ -8,7 +8,7 @@
 
 }
 
-main{ background-image: url("images/floral.png")}
+main{ background-image: url(images/floral.png)}
 .collapse {position: absolute; right: 17px;}
 .nav-item{ cursor: pointer;   margin: 10px;color: #cacaca;}
 body{margin: 0px; font-family: 'Roboto', sans-serif;}
