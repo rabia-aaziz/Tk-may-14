@@ -8,51 +8,7 @@
 
 }
 
-/* for mobile 360x640 S6 Edge */
-@media (min-width: 360px) {}
-
-/* for iphone6, iphone7 375x667*/
-@media (min-width: 375px) {}
-
-/* for iphone6 plus, iphone7 plus 414x736 */
-@media (min-width: 414px) {}
-
-@media (min-width: 480px) {}
-
-/* for tablet   768x1024 */
-@media (min-width: 768px) {}
-
-/* for 1024x768 */
-@media (min-width: 1024px) {}
-
-/* for 1152*/
-@media (min-width: 1152px) {}
-
-/* for 1280x800 */
-@media (min-width: 1280px) {}
-
-/* for 1366x800 */
-@media (min-width: 1366px) {}
-
-/* for 1440x900 */
-@media (min-width: 1440px) {}
-
-/* for 1600x900 */
-@media (min-width: 1600px) {}
-
-/* for 1920x1080 */
-@media (min-width: 1920px) {}
-
-/* for 2560x1440 */
-@media (min-width: 2560px) {}
-
-/* for 4k 3840x2160 */
-@media (min-width: 3840px) {}
-
-/* for 5k 5120 × 2880 */
-@media (min-width: 5120px) {}
-
-main{ background-image: url("images/VERSACE-Home-Tapete-Vliestapete-93588-1-935881-Bar.jpg")}
+main{ background-image: url("images/floral.png")}
 .collapse {position: absolute; right: 17px;}
 .nav-item{ cursor: pointer;   margin: 10px;color: #cacaca;}
 body{margin: 0px; font-family: 'Roboto', sans-serif;}
@@ -82,7 +38,7 @@ nav{ color:#cacaca !important; height: 40px;margin-top: 6px;height:auto; backgro
 .portfolio-img{display: flex; flex-wrap: wrap;justify-content: center;}
 .contact-icons{display: flex;justify-content: center;}
 .contact-icons i{font-size: 28px;}
-.contact-icons div{ margin:10px; text-align:center; border:2px solid black; height:50px; width: 50px; padding: 10px; border-radius: 100%;}
+.contact-icons div{ margin:10px; text-align:center; border:2px solid black; height:50px; width: 50px; padding-top: 10px; border-radius: 100%;}
 #contact-us{opacity: 0.8;background-color: #aec6c5;}
 .circle,#our-services,#contact-us,#portfolio{opacity: 0.8;}
 .fb:hover {background-color: #212121; color:#fcdea6; transition: 5s all ease-in-out;}
@@ -96,7 +52,6 @@ nav{ color:#cacaca !important; height: 40px;margin-top: 6px;height:auto; backgro
 .portfolio-img .black{opacity: 0.9; color:white; height:250px; width:300px;margin-top: 0px;}
 .pink{background-image: url("images/location.PNG");}
 .eye:hover{background-color: #fff; transition: 3s all;}
-
 #blue,#e-,#bata,#tv,#shop{background-position: center;background-size: cover;}
 #blue{ background-image: url("images/matter.PNG"); }
 #e-commerce{background-image: url("images/olx.PNG")}
@@ -104,7 +59,6 @@ nav{ color:#cacaca !important; height: 40px;margin-top: 6px;height:auto; backgro
 #tv{background-image: url("images/tv.PNG")}
 #shop{background-image: url("images/shop.PNG")}
 .portfolio-img{width: 72%; margin:auto; padding:10px;display: flex;flex-wrap: wrap;justify-content: space-around;}
-
 .bata{
     display: none;
 }
